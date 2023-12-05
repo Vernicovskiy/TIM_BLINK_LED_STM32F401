@@ -36,7 +36,7 @@
 void tim10_init(){
 		RCC->APB2ENR |= RCC_APB2ENR_TIM10EN; 
 		NVIC_EnableIRQ(TIM1_UP_TIM10_IRQn); 
-		TIM10->PSC = 16000;
+		TIM10->PSC = 16000-1;
 		TIM10->ARR = 999;
 	}   
 ```
