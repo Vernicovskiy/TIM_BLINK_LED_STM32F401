@@ -23,8 +23,9 @@
 ---
 <details>
   <summary>Принцип работы режима обычного счета таймера общего назначения</summary>
-  
-  ![Diagram of System Timer (SysTick)](image.png)
+  <p align="center">
+<img src="PNG/image.png" alt="Diagram of System Timer (SysTick)" width="500"/>
+</<p align="center">
 </details>   
 
 ---
